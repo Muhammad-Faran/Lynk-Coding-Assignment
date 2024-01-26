@@ -48,7 +48,7 @@ npm install
 
 
 Step 9: Build Assets
-Compile the project's assets using:
+Compile the project's assets using below command and keep it running:
 npm run dev
 
 
@@ -64,6 +64,9 @@ php artisan serve
 Your application should now be accessible at http://localhost:8000. Feel free to explore and test the functionality.
 
 You can get login credentials from USerSeeder.
+
+P.S:
+You can view App\Console\Commands\UpdateOverdueTransactions, which can be scheduled overnight to change the status of overdue transactions. VAT was just needed to show in requirement, the logic if known was it on daily basis, then could have been applied in this Command.
 
 
 
