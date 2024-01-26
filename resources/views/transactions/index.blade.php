@@ -42,7 +42,7 @@
                                 <tr>
                                     <td class="py-2">{{ $transaction->transaction_id }}</td>
                                     <td class="py-2">{{ number_format($transaction->amount, 2) }}</td>
-                                    <td class="py-2">{{ number_format($transaction->vat, 2) }}</td>
+                                    <td class="py-2">{{ number_format($transaction->vat, 0) }}%</td>
                                     <td class="py-2">{{ number_format($transaction->paid_amount, 2) }}</td>
                                     <td class="py-2">{{ number_format($transaction->balance, 2) }}</td>
                                     @role('Admin')
