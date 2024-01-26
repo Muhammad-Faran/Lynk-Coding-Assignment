@@ -63,7 +63,7 @@ php artisan serve
 
 Your application should now be accessible at http://localhost:8000. Feel free to explore and test the functionality.
 
-You can get ogin details from USerSeeder.
+You can get login credentials from USerSeeder.
 
 
 
